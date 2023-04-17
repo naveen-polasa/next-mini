@@ -5,6 +5,7 @@ export default function Home() {
     <main>
       Hey There
       <div className="flex gap-3">
+        <Link href={"tasks"}>Tasks</Link>
         <Link href={"posts"}>Posts</Link>
         <Link href={"counter"}>Counter</Link>
         <Link href={"counter2"}>Counter 2</Link>

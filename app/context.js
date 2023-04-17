@@ -10,7 +10,7 @@ const ContextProvider = ({ children }) => {
     setValue(value + 1);
   };
   const decreaseVal = () => {
-    setValue(value + 1);
+    setValue(value - 1);
   };
   return (
     <TestContext.Provider value={{ value, increaseVal, decreaseVal }}>
